@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-25 07:30:57">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>TraingnsSet</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>13acbe134f7217003b4db2718110c789</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-06-25 07:30:57</sys_created_on>
+<sys_id>b6ae36934f7217003b4db2718110c7d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-06-25 07:30:57</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_2b8d7a534f7217003b4db2718110c743</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Forcce to update Set&lt;/name&gt;&lt;onclick&gt;forceToUpSet()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function forceToUpSet(){
+	var updateMgr = new GlideUpdateManager2();
+	updateMgr.saveRecord(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-25 07:26:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2b8d7a534f7217003b4db2718110c743&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Forcce to update Set&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_2b8d7a534f7217003b4db2718110c743&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-25 07:26:51&lt;/sys_updated_on&gt;&lt;table&gt;global&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1039056325</payload_hash>
+<remote_update_set display_value="TraingnsSet">b6ae36934f7217003b4db2718110c7d8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-06-25 07:30:57</sys_created_on>
+<sys_id>36ae36934f7217003b4db2718110c7d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16435d690ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-06-25 07:30:57</sys_updated_on>
+<table>global</table>
+<target_name>Forcce to update Set</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>3ebd3a53767217006b72760f5deee2f3</update_guid>
+<update_guid_history>3ebd3a53767217006b72760f5deee2f3:1039056325</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_e8edf2534f7217003b4db2718110c7e6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;transforming layout of the transportable button ui action&lt;/description&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;ChangeCss of UIaction&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	transformButton('Transportable', 'green', 'yellow','');
+	transformButton('NotTransportable', '#FF0022', 'white', 'icon-error-circle');
+	}
+
+function transformButton(buttonID, buttonBackgroundColor, buttonTextColor, buttonIconName) {
+	try{
+		//Find the button(s) by ID and change the background color
+		$$('button[id=' + buttonID + ']').each(function(elmt) {
+			elmt.style.backgroundColor = buttonBackgroundColor;
+			if(buttonTextColor){
+				elmt.style.color = buttonTextColor;
+			}
+			if(buttonIconName){
+				elmt.addClassName(buttonIconName);
+				elmt.innerHTML = ' ' + elmt.innerHTML;
+			}
+		});
+	}catch(e){}
+	}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-25 07:29:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e8edf2534f7217003b4db2718110c7e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ChangeCss of UIaction&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e8edf2534f7217003b4db2718110c7e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-25 07:29:04&lt;/sys_updated_on&gt;&lt;table&gt;global&lt;/table&gt;&lt;type/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>406756196</payload_hash>
+<remote_update_set display_value="TraingnsSet">b6ae36934f7217003b4db2718110c7d8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-06-25 07:30:57</sys_created_on>
+<sys_id>3eae36934f7217003b4db2718110c7d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16435d898130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-06-25 07:30:57</sys_updated_on>
+<table>global</table>
+<target_name>ChangeCss of UIaction</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>0b3efe539d72170045cbf0a9e0c5b5f1</update_guid>
+<update_guid_history>0b3efe539d72170045cbf0a9e0c5b5f1:406756196</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_c34db6534f7217003b4db2718110c745</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action"><sys_ui_action action="INSERT_OR_UPDATE"><action_name/><active>true</active><client>false</client><comments>this ui action indicates whether record doesn't go to update set</comments><condition>current.getAttribute('update_synch') !='true'</condition><form_action>false</form_action><form_button>false</form_button><form_context_menu>false</form_context_menu><form_link>false</form_link><form_style/><hint/><list_action>false</list_action><list_banner_button>false</list_banner_button><list_button>false</list_button><list_choice>false</list_choice><list_context_menu>false</list_context_menu><list_link>false</list_link><list_save_with_form_button>false</list_save_with_form_button><list_style/><name>NotTransportabble</name><onclick/><order>100</order><script/><show_insert>true</show_insert><show_multiple_update>false</show_multiple_update><show_query>false</show_query><show_update>true</show_update><sys_class_name>sys_ui_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-25 07:26:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c34db6534f7217003b4db2718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NotTransportabble</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_action_c34db6534f7217003b4db2718110c745</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-25 07:26:01</sys_updated_on><table>global</table><ui11_compatible>true</ui11_compatible><ui16_compatible>false</ui16_compatible></sys_ui_action></record_update>]]></payload>
+<payload_hash>-506835514</payload_hash>
+<remote_update_set display_value="TraingnsSet">b6ae36934f7217003b4db2718110c7d8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-06-25 07:30:57</sys_created_on>
+<sys_id>baae36934f7217003b4db2718110c7d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16435d5cec20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-06-25 07:30:57</sys_updated_on>
+<table>global</table>
+<target_name>NotTransportabble</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>668dbe13bb721700d75152784a2cfa24</update_guid>
+<update_guid_history>668dbe13bb721700d75152784a2cfa24:-506835514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_491df2534f7217003b4db2718110c79e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action"><sys_ui_action action="INSERT_OR_UPDATE"><action_name/><active>true</active><client>true</client><comments>this ui action whether this goes to update set or not</comments><condition>current.getAttribute('update_synch') =='true'</condition><form_action>false</form_action><form_button>false</form_button><form_context_menu>false</form_context_menu><form_link>false</form_link><form_style/><hint/><list_action>false</list_action><list_banner_button>false</list_banner_button><list_button>false</list_button><list_choice>false</list_choice><list_context_menu>false</list_context_menu><list_link>false</list_link><list_save_with_form_button>false</list_save_with_form_button><list_style/><name>Transportabble</name><onclick/><order>100</order><script/><show_insert>true</show_insert><show_multiple_update>false</show_multiple_update><show_query>false</show_query><show_update>true</show_update><sys_class_name>sys_ui_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-25 07:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>491df2534f7217003b4db2718110c79e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Transportabble</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_action_491df2534f7217003b4db2718110c79e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-25 07:24:53</sys_updated_on><table>global</table><ui11_compatible>true</ui11_compatible><ui16_compatible>false</ui16_compatible></sys_ui_action></record_update>]]></payload>
+<payload_hash>-500124302</payload_hash>
+<remote_update_set display_value="TraingnsSet">b6ae36934f7217003b4db2718110c7d8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-06-25 07:30:57</sys_created_on>
+<sys_id>f6ae36934f7217003b4db2718110c7d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16435d4c5020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-06-25 07:30:57</sys_updated_on>
+<table>global</table>
+<target_name>Transportabble</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>c64dbe1365721700177398af79ac4221</update_guid>
+<update_guid_history>c64dbe1365721700177398af79ac4221:-500124302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
